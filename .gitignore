@@ -1,0 +1,28 @@
+#.NET Core
+
+obj/
+bin/
+*.cache
+
+#React SPA
+# dependencies
+/compxspa/node_modules
+/compxspa/.pnp
+.pnp.js
+
+# testing
+/compxspa/coverage
+
+# production
+/compxspa/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
